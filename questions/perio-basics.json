@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "bankId": "perio-basics",
+  "courseId": "periodontics",
+  "courseTitle": "Periodontics Review",
+  "sessionId": "perio-basics",
+  "sessionTitle": "Periodontal Foundations",
+  "description": "Demonstration content only. Replace with your own verified source-derived questions.",
+  "version": "1.0.0",
+  "lastUpdated": "2026-07-31",
+  "questions": [
+    {
+      "id": "perio-q001",
+      "type": "single-choice",
+      "topic": "Diagnosis",
+      "difficulty": "medium",
+      "stem": "Which measurement represents the distance from the gingival margin to the base of the sulcus or periodontal pocket?",
+      "options": [
+        {"id": "a", "text": "Clinical attachment level"},
+        {"id": "b", "text": "Probing depth"},
+        {"id": "c", "text": "Keratinized tissue width"},
+        {"id": "d", "text": "Recession depth"}
+      ],
+      "correctAnswer": "b",
+      "explanation": {
+        "summary": "Probing depth is measured from the gingival margin to the base of the probeable crevice or pocket.",
+        "whyCorrect": "Its coronal reference point is the current gingival margin.",
+        "whyOthersIncorrect": {
+          "a": "Clinical attachment level uses a fixed reference such as the CEJ.",
+          "c": "Keratinized tissue width describes a horizontal soft-tissue dimension.",
+          "d": "Recession is the distance from the CEJ to the gingival margin when the margin is apical to the CEJ."
+        },
+        "keyTakeaway": "Probing depth uses the gingival margin; attachment level uses a fixed tooth landmark.",
+        "source": "Replace with your periodontal source."
+      }
+    },
+    {
+      "id": "perio-q002",
+      "type": "true-false",
+      "topic": "Maintenance",
+      "difficulty": "easy",
+      "stem": "Periodontal maintenance intervals should be individualized according to patient risk and disease stability.",
+      "correctAnswer": true,
+      "explanation": {
+        "summary": "Maintenance frequency is risk-based rather than identical for every patient.",
+        "whyCorrect": "Disease severity, control of risk factors, plaque control, and treatment response influence recall intervals.",
+        "keyTakeaway": "Periodontal maintenance is individualized.",
+        "source": "Replace with your periodontal source."
+      }
+    },
+    {
+      "id": "perio-q003",
+      "type": "multiple-select",
+      "topic": "Risk assessment",
+      "difficulty": "medium",
+      "stem": "Select modifiable factors that can adversely affect periodontal outcomes.",
+      "instruction": "Select all that apply.",
+      "options": [
+        {"id": "a", "text": "Tobacco smoking"},
+        {"id": "b", "text": "Poor glycemic control"},
+        {"id": "c", "text": "Patient age"},
+        {"id": "d", "text": "Inadequate plaque control"}
+      ],
+      "correctAnswer": ["a", "b", "d"],
+      "explanation": {
+        "summary": "Smoking, glycemic control, and plaque control can be modified; age cannot.",
+        "whyCorrect": "Addressing modifiable risk factors is part of comprehensive periodontal management.",
+        "whyOthersIncorrect": {"c": "Age is not modifiable, although it may be associated with cumulative disease experience."},
+        "keyTakeaway": "Separate modifiable risk factors from fixed background characteristics.",
+        "source": "Replace with your periodontal source."
+      }
+    },
+    {
+      "id": "perio-q004",
+      "type": "fill-blank",
+      "topic": "Anatomy",
+      "difficulty": "easy",
+      "stem": "The fixed landmark commonly used to calculate clinical attachment level is the _____.",
+      "correctAnswer": ["cej", "cementoenamel junction", "cemento-enamel junction"],
+      "explanation": {
+        "summary": "The CEJ provides a relatively stable reference point for attachment-level measurements.",
+        "whyCorrect": "Unlike the gingival margin, the CEJ does not change position with inflammation or recession.",
+        "keyTakeaway": "Clinical attachment level is referenced to the CEJ.",
+        "source": "Replace with your periodontal source."
+      }
+    },
+    {
+      "id": "perio-q005",
+      "type": "short-answer",
+      "topic": "Prevention",
+      "difficulty": "easy",
+      "stem": "What is the main behavioral factor targeted by individualized oral-hygiene instruction?",
+      "correctAnswer": ["plaque control", "biofilm control", "dental plaque control", "oral biofilm control"],
+      "explanation": {
+        "summary": "The purpose is effective daily disruption of the dental biofilm.",
+        "whyCorrect": "Consistent plaque control supports inflammation reduction and long-term stability.",
+        "keyTakeaway": "Oral-hygiene instruction should translate into effective daily biofilm control.",
+        "source": "Replace with your periodontal source."
+      }
+    }
+  ]
+}

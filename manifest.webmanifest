@@ -1,0 +1,19 @@
+{
+  "name": "Amin's Dent Study",
+  "short_name": "Amin's Dent Study",
+  "description": "A self-managed dental quiz and study platform.",
+  "start_url": "/DDS/#/home",
+  "scope": "/DDS/",
+  "display": "standalone",
+  "background_color": "#f5f2ea",
+  "theme_color": "#08253a",
+  "icons": [
+    {
+      "src": "/DDS/assets/images/tooth-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "id": "/DDS/"
+}

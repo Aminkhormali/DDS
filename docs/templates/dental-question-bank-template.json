@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "bankId": "replace-me",
+  "courseId": "replace-me",
+  "courseTitle": "Course title",
+  "sessionId": "session-1",
+  "sessionTitle": "Session 1",
+  "description": "Session description",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "unique-question-id",
+      "type": "single-choice",
+      "topic": "Topic",
+      "difficulty": "medium",
+      "stem": "Question text",
+      "options": [
+        { "id": "a", "text": "Option A" },
+        { "id": "b", "text": "Option B" },
+        { "id": "c", "text": "Option C" },
+        { "id": "d", "text": "Option D" }
+      ],
+      "correctAnswer": "b",
+      "explanation": {
+        "summary": "Concise explanation.",
+        "whyCorrect": "Why the correct answer is best.",
+        "whyOthersIncorrect": {
+          "a": "Why A is incorrect.",
+          "c": "Why C is incorrect.",
+          "d": "Why D is incorrect."
+        },
+        "clinicalConnection": "Optional clinical connection.",
+        "keyTakeaway": "One key learning point.",
+        "source": "Source document and page"
+      }
+    }
+  ]
+}

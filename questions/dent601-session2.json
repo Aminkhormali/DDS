@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "bankId": "dent601-session2",
+  "courseId": "dent601",
+  "courseTitle": "DENT 601",
+  "sessionId": "session-2",
+  "sessionTitle": "Session 2 — Muscle Physiology",
+  "description": "Demonstration content for a second independently editable session.",
+  "version": "1.0.0",
+  "lastUpdated": "2026-07-31",
+  "questions": [
+    {
+      "id": "dent601-s2-q001",
+      "type": "single-choice",
+      "topic": "Sarcomere",
+      "difficulty": "medium",
+      "stem": "Which sarcomere band contains the full length of the thick filaments?",
+      "options": [
+        {"id": "a", "text": "A band"},
+        {"id": "b", "text": "I band"},
+        {"id": "c", "text": "Z disc"},
+        {"id": "d", "text": "M line only"}
+      ],
+      "correctAnswer": "a",
+      "explanation": {
+        "summary": "The A band corresponds to the length of the thick filaments.",
+        "whyCorrect": "Its width remains essentially constant during contraction because thick filament length does not change.",
+        "whyOthersIncorrect": {
+          "b": "The I band contains thin filaments without thick-filament overlap.",
+          "c": "The Z disc defines a sarcomere boundary.",
+          "d": "The M line is the center anchoring region, not the full thick-filament length."
+        },
+        "keyTakeaway": "A band length stays constant as thin filaments slide inward.",
+        "source": "Replace with your lecture filename and section."
+      }
+    },
+    {
+      "id": "dent601-s2-q002",
+      "type": "true-false",
+      "topic": "Sliding filament theory",
+      "difficulty": "easy",
+      "stem": "During skeletal muscle contraction, actin and myosin filaments become shorter.",
+      "correctAnswer": false,
+      "explanation": {
+        "summary": "The filaments slide past one another; their individual lengths do not shorten.",
+        "whyCorrect": "Sarcomere shortening results from increased filament overlap.",
+        "keyTakeaway": "Filaments slide; the sarcomere shortens.",
+        "source": "Replace with your lecture filename and section."
+      }
+    },
+    {
+      "id": "dent601-s2-q003",
+      "type": "single-choice",
+      "topic": "Excitation-contraction coupling",
+      "difficulty": "medium",
+      "stem": "What is the principal immediate effect of calcium binding to troponin C?",
+      "options": [
+        {"id": "a", "text": "It hydrolyzes ATP on the myosin head"},
+        {"id": "b", "text": "It moves tropomyosin away from actin-binding sites"},
+        {"id": "c", "text": "It closes ryanodine receptors"},
+        {"id": "d", "text": "It detaches actin from the Z disc"}
+      ],
+      "correctAnswer": "b",
+      "explanation": {
+        "summary": "Calcium binding changes the troponin complex and shifts tropomyosin, exposing myosin-binding sites on actin.",
+        "whyCorrect": "This permits cross-bridge formation.",
+        "whyOthersIncorrect": {
+          "a": "Myosin ATPase hydrolyzes ATP as part of the cross-bridge cycle.",
+          "c": "Calcium release occurs through ryanodine receptors; troponin binding does not directly close them.",
+          "d": "Actin remains anchored at the Z disc."
+        },
+        "keyTakeaway": "Calcium exposes actin sites by shifting the troponin-tropomyosin complex.",
+        "source": "Replace with your lecture filename and section."
+      }
+    },
+    {
+      "id": "dent601-s2-q004",
+      "type": "multiple-select",
+      "topic": "Muscle types",
+      "difficulty": "medium",
+      "stem": "Select the features characteristic of cardiac muscle.",
+      "instruction": "Select all that apply.",
+      "options": [
+        {"id": "a", "text": "Intercalated discs"},
+        {"id": "b", "text": "Striations"},
+        {"id": "c", "text": "Voluntary somatic control"},
+        {"id": "d", "text": "Usually one central nucleus"}
+      ],
+      "correctAnswer": ["a", "b", "d"],
+      "explanation": {
+        "summary": "Cardiac muscle is striated, connected by intercalated discs, and usually has one central nucleus.",
+        "whyCorrect": "These distinguish cardiac myocytes from typical skeletal and smooth muscle cells.",
+        "whyOthersIncorrect": {"c": "Cardiac muscle is involuntary."},
+        "keyTakeaway": "Cardiac: striated, involuntary, central nucleus, intercalated discs.",
+        "source": "Replace with your lecture filename and section."
+      }
+    },
+    {
+      "id": "dent601-s2-q005",
+      "type": "single-choice",
+      "topic": "Neuromuscular junction",
+      "difficulty": "hard",
+      "stem": "Which neurotransmitter is released by a somatic motor neuron at the skeletal neuromuscular junction?",
+      "options": [
+        {"id": "a", "text": "Dopamine"},
+        {"id": "b", "text": "Norepinephrine"},
+        {"id": "c", "text": "Acetylcholine"},
+        {"id": "d", "text": "Glycine"}
+      ],
+      "correctAnswer": "c",
+      "explanation": {
+        "summary": "Somatic motor neurons release acetylcholine at the neuromuscular junction.",
+        "whyCorrect": "Acetylcholine activates nicotinic receptors on the motor end plate.",
+        "whyOthersIncorrect": {
+          "a": "Dopamine is not the transmitter at the skeletal neuromuscular junction.",
+          "b": "Norepinephrine is associated with many sympathetic postganglionic synapses.",
+          "d": "Glycine is an inhibitory neurotransmitter in the central nervous system."
+        },
+        "keyTakeaway": "Skeletal NMJ transmitter = acetylcholine.",
+        "source": "Replace with your lecture filename and section."
+      }
+    },
+    {
+      "id": "dent601-s2-q006",
+      "type": "fill-blank",
+      "topic": "Sarcomere",
+      "difficulty": "easy",
+      "stem": "The boundaries of one sarcomere are two adjacent _____ discs.",
+      "correctAnswer": ["z", "z discs", "z lines", "z line"],
+      "explanation": {
+        "summary": "A sarcomere extends from one Z disc to the next.",
+        "whyCorrect": "Thin filaments anchor at Z discs at both ends of the sarcomere.",
+        "keyTakeaway": "Sarcomere = Z disc to Z disc.",
+        "source": "Replace with your lecture filename and section."
+      }
+    },
+    {
+      "id": "dent601-s2-q007",
+      "type": "numeric",
+      "topic": "Physiology calculation",
+      "difficulty": "medium",
+      "stem": "A muscle generates 20 N across a cross-sectional area of 4 cm². What is the force per cm²?",
+      "correctAnswer": 5,
+      "tolerance": 0.01,
+      "explanation": {
+        "summary": "20 N divided by 4 cm² equals 5 N/cm².",
+        "whyCorrect": "Specific force in this simplified example is force divided by area.",
+        "keyTakeaway": "Normalize force by dividing by cross-sectional area.",
+        "source": "Demonstration calculation."
+      }
+    },
+    {
+      "id": "dent601-s2-q008",
+      "type": "short-answer",
+      "topic": "Calcium handling",
+      "difficulty": "easy",
+      "stem": "Name the intracellular organelle that stores most releasable calcium for skeletal muscle contraction.",
+      "correctAnswer": ["sarcoplasmic reticulum", "the sarcoplasmic reticulum", "sr"],
+      "explanation": {
+        "summary": "The sarcoplasmic reticulum stores and releases calcium during excitation-contraction coupling.",
+        "whyCorrect": "Terminal cisternae are specialized regions positioned near T tubules.",
+        "keyTakeaway": "T tubules carry the signal; sarcoplasmic reticulum supplies calcium.",
+        "source": "Replace with your lecture filename and section."
+      }
+    }
+  ]
+}

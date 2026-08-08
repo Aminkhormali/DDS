@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /DDS/
+
+Sitemap: https://aminkhormali.github.io/DDS/sitemap.xml

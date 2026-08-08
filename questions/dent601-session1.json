@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "bankId": "dent601-session1",
+  "courseId": "dent601",
+  "courseTitle": "DENT 601",
+  "sessionId": "session-1",
+  "sessionTitle": "Session 1 \u2014 Bone and Cartilage",
+  "description": "Demonstration content. Replace these questions with your validated course material.",
+  "version": "1.0.0",
+  "lastUpdated": "2026-07-31",
+  "questions": [
+    {
+      "id": "dent601-s1-q001",
+      "type": "single-choice",
+      "topic": "Cartilage histology",
+      "difficulty": "medium",
+      "stem": "Which cell is primarily responsible for maintaining the extracellular matrix within mature cartilage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Osteoclast"
+        },
+        {
+          "id": "b",
+          "text": "Chondrocyte"
+        },
+        {
+          "id": "c",
+          "text": "Fibroblast"
+        },
+        {
+          "id": "d",
+          "text": "Osteoblast"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": {
+        "summary": "Chondrocytes are mature cartilage cells located in lacunae and maintain the cartilage matrix.",
+        "whyCorrect": "A chondrocyte is the differentiated cartilage cell responsible for matrix maintenance.",
+        "whyOthersIncorrect": {
+          "a": "Osteoclasts resorb mineralized bone.",
+          "c": "Fibroblasts produce connective-tissue matrix but are not the mature resident cell of cartilage lacunae.",
+          "d": "Osteoblasts synthesize osteoid during bone formation."
+        },
+        "keyTakeaway": "Chondroblasts produce cartilage matrix during growth; chondrocytes maintain it after becoming enclosed in lacunae.",
+        "source": "Replace with your lecture filename and section."
+      }
+    },
+    {
+      "id": "dent601-s1-q002",
+      "type": "true-false",
+      "topic": "Cartilage growth",
+      "difficulty": "easy",
+      "stem": "Interstitial growth increases cartilage from within the existing tissue.",
+      "correctAnswer": true,
+      "explanation": {
+        "summary": "Interstitial growth occurs through division of chondrocytes and matrix production within cartilage.",
+        "whyCorrect": "It expands cartilage internally, unlike appositional growth at the surface.",
+        "keyTakeaway": "Interstitial means growth from within; appositional means growth at the surface.",
+        "source": "Replace with your lecture filename and section."
+      }
+    },
+    {
+      "id": "dent601-s1-q003",
+      "type": "multiple-select",
+      "topic": "Bone cells",
+      "difficulty": "medium",
+      "stem": "Select the cells directly involved in bone remodeling.",
+      "instruction": "Select all that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Osteoblasts"
+        },
+        {
+          "id": "b",
+          "text": "Osteoclasts"
+        },
+        {
+          "id": "c",
+          "text": "Chondrocytes"
+        },
+        {
+          "id": "d",
+          "text": "Osteocytes"
+        }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": {
+        "summary": "Bone remodeling is coordinated by bone-forming osteoblasts, bone-resorbing osteoclasts, and mechanosensory osteocytes.",
+        "whyCorrect": "These three cell populations form the core cellular network of bone remodeling.",
+        "whyOthersIncorrect": {
+          "c": "Chondrocytes are cartilage cells rather than a principal bone-remodeling cell population."
+        },
+        "keyTakeaway": "Osteocytes sense, osteoclasts resorb, and osteoblasts rebuild.",
+        "source": "Replace with your lecture filename and section."
+      }
+    },
+    {
+      "id": "dent601-s1-q004",
+      "type": "single-choice",
+      "topic": "Tooth support",
+      "difficulty": "medium",
+      "stem": "In the simplified diagram, which labeled tissue forms the mineralized outer covering of the anatomic root?",
+      "image": {
+        "src": "/DDS/assets/images/tooth-layers.svg",
+        "alt": "Simplified longitudinal diagram of a tooth showing enamel, dentin, pulp, and cementum.",
+        "caption": "Simplified educational diagram; not to scale."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Enamel"
+        },
+        {
+          "id": "b",
+          "text": "Dentin"
+        },
+        {
+          "id": "c",
+          "text": "Cementum"
+        },
+        {
+          "id": "d",
+          "text": "Pulp"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": {
+        "summary": "Cementum covers the root surface and provides attachment for periodontal ligament fibers.",
+        "whyCorrect": "Cementum is the mineralized tissue on the root exterior.",
+        "whyOthersIncorrect": {
+          "a": "Enamel covers the anatomic crown.",
+          "b": "Dentin forms the bulk beneath enamel and cementum.",
+          "d": "Pulp is the central soft connective tissue."
+        },
+        "clinicalConnection": "Cementum and the periodontal ligament are central to tooth attachment and periodontal regeneration.",
+        "keyTakeaway": "Enamel covers crown; cementum covers root.",
+        "source": "Replace with your lecture filename and section."
+      }
+    },
+    {
+      "id": "dent601-s1-q005",
+      "type": "single-choice",
+      "topic": "Ossification",
+      "difficulty": "hard",
+      "stem": "Which process forms bone by replacing a preexisting cartilage model?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Endochondral ossification"
+        },
+        {
+          "id": "b",
+          "text": "Intramembranous ossification"
+        },
+        {
+          "id": "c",
+          "text": "Appositional cartilage growth"
+        },
+        {
+          "id": "d",
+          "text": "Interstitial cartilage growth"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": {
+        "summary": "Endochondral ossification replaces a hyaline cartilage template with bone.",
+        "whyCorrect": "The defining feature is the cartilage model that is progressively replaced.",
+        "whyOthersIncorrect": {
+          "b": "Intramembranous ossification forms bone directly within mesenchymal tissue.",
+          "c": "Appositional growth enlarges cartilage at its surface.",
+          "d": "Interstitial growth expands cartilage internally."
+        },
+        "keyTakeaway": "Endochondral uses a cartilage model; intramembranous does not.",
+        "source": "Replace with your lecture filename and section."
+      }
+    },
+    {
+      "id": "dent601-s1-q006",
+      "type": "fill-blank",
+      "topic": "Bone matrix",
+      "difficulty": "easy",
+      "stem": "The unmineralized organic matrix newly secreted by osteoblasts is called _____.",
+      "correctAnswer": [
+        "osteoid"
+      ],
+      "explanation": {
+        "summary": "Osteoid is the organic matrix produced before mineral deposition.",
+        "whyCorrect": "It contains collagen and noncollagenous proteins that later mineralize.",
+        "keyTakeaway": "Osteoid is bone matrix before mineralization.",
+        "source": "Replace with your lecture filename and section."
+      }
+    },
+    {
+      "id": "dent601-s1-q007",
+      "type": "numeric",
+      "topic": "Clinical calculation",
+      "difficulty": "medium",
+      "stem": "A session contains 40 questions and a learner answers 30 correctly. What is the percentage score?",
+      "correctAnswer": 75,
+      "tolerance": 0.01,
+      "explanation": {
+        "summary": "30 divided by 40 equals 0.75, or 75%.",
+        "whyCorrect": "Percentage score = correct answers \u00f7 total questions \u00d7 100.",
+        "keyTakeaway": "Convert a proportion to a percentage by multiplying by 100.",
+        "source": "Demonstration calculation."
+      }
+    },
+    {
+      "id": "dent601-s1-q008",
+      "type": "short-answer",
+      "topic": "Bone cells",
+      "difficulty": "easy",
+      "stem": "Name the multinucleated cell that resorbs bone.",
+      "correctAnswer": [
+        "osteoclast",
+        "an osteoclast"
+      ],
+      "explanation": {
+        "summary": "The osteoclast is the specialized multinucleated bone-resorbing cell.",
+        "whyCorrect": "Osteoclasts dissolve mineral and degrade organic bone matrix.",
+        "keyTakeaway": "Osteoclast = bone resorption.",
+        "source": "Replace with your lecture filename and section."
+      }
+    }
+  ]
+}

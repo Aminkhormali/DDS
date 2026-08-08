@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "appTitle": "Amin's Dent Study",
+  "courses": [
+    {
+      "id": "dent601",
+      "title": "DENT 601",
+      "description": "Foundational biomedical sciences organized into editable course sessions.",
+      "tags": [
+        "Biomedical sciences",
+        "Dental school"
+      ],
+      "sessions": [
+        {
+          "id": "session-1",
+          "bankId": "dent601-session1",
+          "title": "Session 1 \u2014 Bone and Cartilage",
+          "description": "Sample questions demonstrating immediate feedback, explanations, flags, notes, and progress tracking.",
+          "path": "/DDS/questions/dent601-session1.json",
+          "category": "Foundations",
+          "questionCount": 8,
+          "version": "1.0.0",
+          "lastUpdated": "2026-07-31",
+          "tags": [
+            "Bone",
+            "Cartilage",
+            "Histology"
+          ]
+        },
+        {
+          "id": "session-2",
+          "bankId": "dent601-session2",
+          "title": "Session 2 \u2014 Muscle Physiology",
+          "description": "A second sample bank showing that sessions can be added without editing the application code.",
+          "path": "/DDS/questions/dent601-session2.json",
+          "category": "Physiology",
+          "questionCount": 8,
+          "version": "1.0.0",
+          "lastUpdated": "2026-07-31",
+          "tags": [
+            "Muscle",
+            "Physiology",
+            "Development"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "periodontics",
+      "title": "Periodontics Review",
+      "description": "A sample course area ready for periodontal diagnosis, treatment planning, surgery, and maintenance sessions.",
+      "tags": [
+        "Periodontics",
+        "Clinical"
+      ],
+      "sessions": [
+        {
+          "id": "perio-basics",
+          "bankId": "perio-basics",
+          "title": "Periodontal Foundations",
+          "description": "Small demonstration bank that you can replace with your own questions.",
+          "path": "/DDS/questions/perio-basics.json",
+          "category": "Clinical foundations",
+          "questionCount": 5,
+          "version": "1.0.0",
+          "lastUpdated": "2026-07-31",
+          "tags": [
+            "Diagnosis",
+            "Maintenance"
+          ]
+        }
+      ]
+    }
+  ]
+}

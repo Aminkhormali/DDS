@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Simplified tooth tissue layers</title>
+  <desc id="desc">A simplified longitudinal tooth diagram showing enamel over the crown, dentin beneath, central pulp, and cementum over the root.</desc>
+  <rect width="720" height="520" rx="24" fill="#f5f8fb"/>
+  <path d="M270 48c-70 0-106 54-92 130 9 49 29 71 40 119 14 63 18 171 51 171 31 0 32-111 61-111s30 111 61 111c33 0 37-108 51-171 11-48 31-70 40-119 14-76-22-130-92-130-44 0-66 24-90 24s-46-24-90-24Z" fill="#d8eef8" stroke="#1b587d" stroke-width="8"/>
+  <path d="M286 78c-54 0-80 41-68 98 7 36 25 62 36 103 12 45 18 134 34 134 18 0 18-101 42-101s24 101 42 101c16 0 22-89 34-134 11-41 29-67 36-103 12-57-14-98-68-98-34 0-52 18-74 18s-40-18-74-18Z" fill="#f2d69d" stroke="#9a6d24" stroke-width="6"/>
+  <path d="M315 126c-27 0-39 25-31 58 5 23 16 42 20 73 7 53 2 112 26 112s19-59 26-112c4-31 15-50 20-73 8-33-4-58-31-58-13 0-21 8-30 8s-17-8-30-8Z" fill="#c94d4d" stroke="#8c2525" stroke-width="6"/>
+  <path d="M218 297c14 63 18 171 51 171 31 0 32-111 61-111s30 111 61 111c33 0 37-108 51-171" fill="none" stroke="#c4a972" stroke-width="15" stroke-linecap="round"/>
+  <g font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#173047">
+    <line x1="175" y1="118" x2="90" y2="88" stroke="#173047" stroke-width="3"/><text x="24" y="84">Enamel</text>
+    <line x1="225" y1="205" x2="90" y2="205" stroke="#173047" stroke-width="3"/><text x="24" y="198">Dentin</text>
+    <line x1="310" y1="240" x2="90" y2="300" stroke="#173047" stroke-width="3"/><text x="24" y="306">Pulp</text>
+    <line x1="432" y1="356" x2="610" y2="356" stroke="#173047" stroke-width="3"/><text x="618" y="364">Cementum</text>
+  </g>
+</svg>
